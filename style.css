@@ -1,6 +1,9 @@
+/* Weather App - Stylish UI using Glassmorphism with a gradient background */
+
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
+/* Overall page styling */
 body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(to right, #4facfe, #00f2fe);
@@ -11,7 +14,7 @@ body {
     margin: 0;
 }
 
-/* Glassmorphism Container */
+/* Glassmorphism container */
 .container {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(15px);
@@ -24,18 +27,19 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-/* Hover effect */
+/* Hover effect for the container */
 .container:hover {
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(20px);
 }
 
+/* Heading style */
 h2 {
     font-size: 26px;
     font-weight: 600;
 }
 
-/* Search bar */
+/* Input field styling */
 input {
     width: 80%;
     padding: 12px;
@@ -47,7 +51,7 @@ input {
     outline: none;
 }
 
-/* Search button */
+/* Button styling */
 button {
     background: linear-gradient(45deg, #ff8a00, #da1b60);
     color: white;
@@ -59,17 +63,18 @@ button {
     transition: 0.3s;
 }
 
+/* Button hover effect */
 button:hover {
     background: linear-gradient(45deg, #da1b60, #ff8a00);
 }
 
-/* Weather result styling */
+/* Weather result display */
 #weather-result {
     margin-top: 20px;
     font-size: 18px;
 }
 
-/* Weather icon */
+/* Weather icon styling */
 .weather-icon {
     width: 100px;
     height: 100px;
@@ -82,7 +87,7 @@ button:hover {
     font-weight: 600;
 }
 
-/* Weather condition */
+/* Weather condition description */
 .weather-desc {
     font-size: 20px;
     text-transform: capitalize;
